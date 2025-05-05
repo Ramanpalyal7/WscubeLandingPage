@@ -1,0 +1,37 @@
+/* ------Mobile view media query */
+@media only screen and (min-width: 200px) and (max-width: 575px) {
+  .btn-outer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    left: 0px;
+    justify-content: center !important;
+  }
+  .bannerContent h1 {
+    font-size: 32px;
+    font-weight: 700;
+
+    text-align: center;
+    line-height: 35px;
+  }
+
+  .bannerContent br {
+    display: none;
+  }
+
+  .bannerContent p,
+  .bannerContent ul li {
+    font-size: 3rem;
+  }
+  .bannerContentBtn button {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 768px) {
+  .container,
+  .container-md,
+  .container-sm {
+    max-width: 1440px;
+  }
+}
