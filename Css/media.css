@@ -5,6 +5,8 @@
     bottom: 0px;
     width: 100%;
     left: 0px;
+    background-color: white;
+    padding: 5px 0;
     justify-content: center !important;
   }
   .bannerContent h1 {
@@ -21,10 +23,19 @@
 
   .bannerContent p,
   .bannerContent ul li {
-    font-size: 3rem;
+    font-size: 16px;
+  }
+  .bannerContentBtn {
+    flex-direction: column;
   }
   .bannerContentBtn button {
-    flex-direction: column;
+    width: 100%;
+  }
+  .bannerForm {
+    padding: 20px;
+  }
+  .highlights-section h2 {
+    font-size: 25px;
   }
 }
 

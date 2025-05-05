@@ -54,8 +54,62 @@
   width: 50%;
   padding: 10px 0;
   border-radius: 5px;
+  border: 1px solid gainsboro;
 }
 .bannerContentBtn button:first-child {
   color: white;
   background: linear-gradient(to right, #0acefe, #2699fb);
+}
+
+/*---------------Form--------------------- */
+.bannerForm {
+  padding: 40px;
+  border-radius: 10px;
+}
+.bannerForm h3 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.bannerForm button {
+  color: white;
+
+  width: 100%;
+  background: linear-gradient(to right, #0acefe, #2699fb);
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+  padding: 10px 0px;
+}
+/*-------------------------------- */
+.counterSection h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #2699fb;
+}
+
+/*------------------highlights-section-------------------------- */
+
+.highlights-section {
+  background: #f7faff;
+}
+.highlights-section h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #0a2134;
+}
+.highlights-section p {
+  font-size: 18px;
+}
+.highlightItems h4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.highlightItems p {
+  font-size: 15px;
+}
+
+/*------------------------Navbar------------------------------------ */
+#navbarNav ul li a {
+  font-weight: bold;
+  margin-right: 15px;
+  color: #2699fb;
 }
